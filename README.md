@@ -1,3 +1,3 @@
 # BB Unloaded Tabs
-Makes unloaded tabs easier to notice by making them desatuted, transparent and add hover efect like mac os dock.
+Better tabs make unloaded tabs easier to notice by making them desaturated, transparent and add hover effect like macOS dock.
 ![Unloaded tabs](images/unloaded-tabs.png)
