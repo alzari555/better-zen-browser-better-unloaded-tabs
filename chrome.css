@@ -1,4 +1,12 @@
+/* Estado: Pestaña pendiente/no cargada */
 .tabbrowser-tab[pending="true"] {
-    filter: grayscale(1);
-    opacity: 0.5;
+  filter: saturate(0.4) brightness(0.8) !important;
+  opacity: 0.8 !important;
+  transition: filter 0.5s ease, opacity 0.5s ease !important; /* Suaviza el cambio */
+}
+
+/* Estado: Pasando el mouse sobre una pestaña pendiente */
+.tabbrowser-tab[pending="true"]:hover {
+  filter: saturate(1) brightness(1) !important;
+  opacity: 1 !important;
 }
